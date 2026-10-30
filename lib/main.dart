@@ -9,14 +9,33 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return  MaterialApp(
     home: Scaffold(body: Center(
       child: Column(
         children: [
           Text('Hello World!'),
-          Text("Iba Kane")
+          Text("Iba Kane"),
+          Container(
+            margin: EdgeInsets.all(20),
+            padding: EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              color: Colors.blueGrey,
+              borderRadius: BorderRadius.circular(34),
+ ), child: Column (
+      children: [ Text('Boîte stylisée avec Container',
+ style: TextStyle(color: Colors.white, fontSize: 18),),
+ Text('IBA KANE',
+ style: TextStyle(color: Colors.white, fontSize: 18),),
+ ]),
+ 
+),
+
+          
+          
  ],
+
  ),
+ 
 ),
     ));
 
