@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
           Text('Hello World!'),
           Text("Iba Kane"),
           Container(
-            margin: EdgeInsets.all(20),
+            margin: EdgeInsets.all(22),
             padding: EdgeInsets.all(16),
             decoration: BoxDecoration(
               color: Colors.blueGrey,
@@ -55,8 +55,8 @@ Row(
  ],
 ), 
 Column(
- mainAxisAlignment: MainAxisAlignment.center,
- crossAxisAlignment: CrossAxisAlignment.center,
+ mainAxisAlignment: MainAxisAlignment.spaceAround,
+ crossAxisAlignment: CrossAxisAlignment.stretch,
  children: [
  Text('Titre principal', style: TextStyle(fontSize: 50)),
  SizedBox(height: 20),
